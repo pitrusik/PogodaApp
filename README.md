@@ -1,4 +1,5 @@
 Nazwa projektu: Aplikacja Pogodowa
+
 Opis projektu: Aplikacja Pogodowa to aplikacja desktopowa stworzona w technologii Windows Forms w języku C#, która umożliwia użytkownikom sprawdzanie aktualnych danych pogodowych dla wybranych miast. Używa publicznego API OpenWeatherMap do pobierania danych takich jak temperatura, prędkość wiatru i wilgotność.
 
 Kluczowe elementy:
