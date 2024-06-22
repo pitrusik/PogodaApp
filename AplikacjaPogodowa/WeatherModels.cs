@@ -3,7 +3,7 @@
     public class WeatherInfo
     {
         public Main Main { get; set; }
-        public Wiatr Wind { get; set; }
+        public Wind Wind { get; set; }
     }
 
     public class Main
@@ -12,7 +12,7 @@
         public int Humidity { get; set; }
     }
 
-    public class Wiatr
+    public class Wind
     {
         public double Speed { get; set; }
     }
