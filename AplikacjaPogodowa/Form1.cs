@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Linq;
 using System.Windows.Forms;
 using WeatherApp.Models;
 
@@ -22,10 +21,8 @@ namespace WeatherApp
             {
                 WeatherService weatherService = new WeatherService();
                 WeatherInfo weatherInfo = await weatherService.GetWeatherAsync(CityTextBox.Text);
-
-                // Aktualizacja nowych pól tekstowych
                 TempTextBox.Text = $"Temperatura: {weatherInfo.Main.Temp} °C";
-                WindTextBox.Text = $"Wiatr: {weatherInfo.Wind.Speed} km/h";
+                WindTextBox.Text = $"Wiatr: {weatherInfo.Wind.Speed} m/s";
                 HumidityTextBox.Text = $"Wilgotność: {weatherInfo.Main.Humidity} %";
             }
             catch (Exception ex)

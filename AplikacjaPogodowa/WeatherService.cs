@@ -31,7 +31,7 @@ public class WeatherService
         }
         else
         {
-            throw new Exception("Error retrieving data from weather API");
+            throw new Exception("Bład");
         }
     }
 }

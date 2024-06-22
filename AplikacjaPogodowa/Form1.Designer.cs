@@ -28,18 +28,14 @@
             this.WindTextBox = new System.Windows.Forms.TextBox();
             this.HumidityTextBox = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
-            // 
-            // CityTextBox
-            // 
+
             this.CityTextBox.Font = new System.Drawing.Font("Arial Narrow", 14.25F);
             this.CityTextBox.Location = new System.Drawing.Point(31, 41);
             this.CityTextBox.Name = "CityTextBox";
             this.CityTextBox.Size = new System.Drawing.Size(234, 29);
             this.CityTextBox.TabIndex = 0;
             this.CityTextBox.TextChanged += new System.EventHandler(this.CityTextBox_TextChanged);
-            // 
-            // GetWeatherButton
-            // 
+
             this.GetWeatherButton.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.GetWeatherButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.GetWeatherButton.FlatStyle = System.Windows.Forms.FlatStyle.System;
@@ -52,9 +48,7 @@
             this.GetWeatherButton.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.GetWeatherButton.UseVisualStyleBackColor = false;
             this.GetWeatherButton.Click += new System.EventHandler(this.GetWeatherButton_Click);
-            // 
-            // TempTextBox
-            // 
+
             this.TempTextBox.BackColor = System.Drawing.SystemColors.Info;
             this.TempTextBox.Font = new System.Drawing.Font("Arial Narrow", 14.25F);
             this.TempTextBox.Location = new System.Drawing.Point(14, 107);
@@ -62,9 +56,7 @@
             this.TempTextBox.ReadOnly = true;
             this.TempTextBox.Size = new System.Drawing.Size(544, 29);
             this.TempTextBox.TabIndex = 3;
-            // 
-            // WindTextBox
-            // 
+ 
             this.WindTextBox.BackColor = System.Drawing.SystemColors.Info;
             this.WindTextBox.Font = new System.Drawing.Font("Arial Narrow", 14.25F);
             this.WindTextBox.Location = new System.Drawing.Point(14, 159);
@@ -73,9 +65,7 @@
             this.WindTextBox.Size = new System.Drawing.Size(544, 29);
             this.WindTextBox.TabIndex = 4;
             this.WindTextBox.TextChanged += new System.EventHandler(this.WindTextBox_TextChanged);
-            // 
-            // HumidityTextBox
-            // 
+ 
             this.HumidityTextBox.BackColor = System.Drawing.SystemColors.Info;
             this.HumidityTextBox.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.HumidityTextBox.Location = new System.Drawing.Point(14, 214);
@@ -84,9 +74,7 @@
             this.HumidityTextBox.Size = new System.Drawing.Size(544, 29);
             this.HumidityTextBox.TabIndex = 5;
             this.HumidityTextBox.TextChanged += new System.EventHandler(this.HumidityTextBox_TextChanged);
-            // 
-            // Form1
-            // 
+
             this.AutoSize = true;
             this.BackColor = System.Drawing.SystemColors.ControlLight;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
