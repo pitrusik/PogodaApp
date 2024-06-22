@@ -8,7 +8,7 @@ Kluczowe elementy:
 
 2.	WeatherService: Serwis obsługujący komunikację z API OpenWeatherMap za pomocą RestSharp do wysyłania zapytań HTTP.
 
-3.	WeatherModels: Zbiór klas modeli takich samym jak w API pogodowym, takich jak WeatherInfo, Main, Wind, przechowujących informacje o temperaturze,  wilgotności i prędkości wiatru.
+3.	WeatherModels: Zbiór klas modeli, takich jak WeatherInfo, Main, Wind, przechowujących informacje o temperaturze,  wilgotności i prędkości wiatru.
 
 
 ![image](https://github.com/pitrusik/PogodaApp/assets/91748205/cd4c0cc1-bc0a-409a-930e-48349f5a93df)
